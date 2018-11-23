@@ -3,7 +3,7 @@ tell a number to this code and it will tell you a story
 
 
 # Usage
-
+'''
 root@Data53:~/code/python_scripts/numrep# ls
 numrep.py  numrep.tar
 root@Data53:~/code/python_scripts/numrep# python3.7 numrep.py -hex cafe
@@ -32,3 +32,4 @@ HEXADECIMAL: 0x383
 CHARACTER: ΃
 root@Data53:~/code/python_scripts/numrep# 
 root@Data53:~/code/python_scripts/numrep# 
+'''
