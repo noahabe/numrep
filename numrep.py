@@ -13,7 +13,7 @@ Hope it will serve your needs!! Peace 0ut!!
 import argparse
 
 
-def convert_to_decimal(number, base):
+def convert_to_decimal(number: str, base: int) -> int:
     ########### [FOR HEXADECIMAL ONLY]############
     if base == 16:
         convertion_table = {
@@ -24,7 +24,7 @@ def convert_to_decimal(number, base):
             'E': 14,
             'F': 15,
         }
-        def CONVERT(x): return convertion_table[x.upper()]
+        def CONVERT(x: str): return convertion_table[x.upper()]
     #############################################
     decimal = 0
     position = len(number)-1
