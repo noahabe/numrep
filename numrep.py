@@ -1,13 +1,9 @@
-# adding a single line
 """
-Author: Noah Abe
 Program Name: numrep (NUMber REPresentation)
-Date: Wed Oct 10 14:03:59 CDT 2018
 Description: Changes a number from one base representation to another.
 Acceptable bases for now are: base2(binary), base8(octal), base10(decimal) and
 base16(hexadecimal). It also includes a functionality that can change a character
 into its ASCII code.
-Hope it will serve your needs!! Peace 0ut!!
 """
 
 import argparse
